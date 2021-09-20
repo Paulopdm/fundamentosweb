@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -15,20 +16,53 @@
             <a href="contato.html">Contato</a>
         </li>
     </ul>
-    <h1>Sobre o Paulo de Matos</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo soluta corrupti dicta obcaecati magnam in minima at quam. Tenetur enim delectus quis veniam distinctio quae quisquam aliquam? Aliquid, architecto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi dolor unde veritatis molestiae cumque ea voluptatem quaerat. Laudantium qui, fugiat aliquid sapiente, praesentium sit nesciunt amet, odio culpa cupiditate illum.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum neque nulla quo, tempora, tenetur molestiae dolorum autem voluptatem corporis ex veritatis ducimus odio inventore porro quia facilis atque impedit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic enim aliquam blanditiis dolores aspernatur maiores voluptas quos, eum at minus nihil dolor temporibus fuga nulla numquam labore qui debitis ipsum?</p>
-    <img src="assets/img/paulo.png" alt="Foto do criador do conteúdo">
+    <h1 class="center">Sobre o Paulo de Matos</h1>
+
+    <div class="container">
+
+        <div>
+            <img class="br50 wh p30" src="assets/img/paulo.png" alt="Foto do criador do conteúdo">
+        </div>
+        
+        <div class="p30">
+            <p class="justificar">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo soluta corrupti dicta obcaecati magnam in minima at quam. Tenetur enim delectus quis veniam distinctio quae quisquam aliquam? Aliquid, architecto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi dolor unde veritatis molestiae cumque ea voluptatem quaerat. Laudantium qui, fugiat aliquid sapiente, praesentium sit nesciunt amet, odio culpa cupiditate illum.</p>
+            <p class="justificar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum neque nulla quo, tempora, tenetur molestiae dolorum autem voluptatem corporis ex veritatis ducimus odio inventore porro quia facilis atque impedit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic enim aliquam blanditiis dolores aspernatur maiores voluptas quos, eum at minus nihil dolor temporibus fuga nulla numquam labore qui debitis ipsum?</p>
+        </div>
+
+
+        
+    </div>
     
-    <h2>Aqui está uma das minhas músicas favoritas</h2>
+    <h2 class="center">Aqui está uma das minhas músicas favoritas</h2>
+
+    <div class="container mb50">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/AG8fugqFn9Q" 
+        title="YouTube video player" 
+        frameborder="20" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    </div>
   
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/AG8fugqFn9Q" 
-    title="YouTube video player" 
-    frameborder="20" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen></iframe>
+    <hr>
+
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/paulo-de-matos-b29857191/" target="_blank">
+                <img class="tm-social p30" src="assets/img/logo linkedin.png" alt="Logo do Linkedin">
+            </a>
+            <a href="https://github.com/Paulopdm" target="_blank">
+                <img class="tm-social p30" src="assets/img/logo github.png" alt="Logo do github">
+            </a>
+            <a href="https://www.instagram.com/paulopdm/" target="_blank">
+                <img class="tm-social p30" src="assets/img/logo instagram.png" alt="Logo do instagram">
+            </a>
+        </div>
+        <p class="center">Todos os direitos reservados para Paulo de Matos &copy</p>
+    </footer>
+
 </body>
+
 </html>
